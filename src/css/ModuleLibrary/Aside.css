@@ -1,0 +1,60 @@
+.aside{
+        margin-top: 0px;
+        min-height: auto;
+        background: #282d38;
+        float: left;
+        width: 24%; 
+        height:686px;
+    
+    }
+    .search{
+        background: #2a2a2d;
+        width:94%; 
+        height: 30px;
+        margin-top:15px;
+        margin-left:3%;
+        border: none;
+        clear: both; 
+    
+    
+    }
+    
+    input::placeholder{
+    color:#7d868c;
+    text-align:right; 
+    font-size: 15px;
+    padding-right:5px;
+    
+    
+    
+    
+    }
+    .container-aside{
+        float:left;
+        margin-left: 7%;
+        width: 100%;
+        height: 5%; 
+        margin-top:10px ;  
+    }
+    
+    
+    .img-aside{
+        float: left;
+    position: relative;
+    left:0%;
+    width: 10%;
+    height: 120%; 
+    
+    }
+    .name-aside{
+        float: left;
+    position: relative;
+    margin-left: 8px; 
+    width: 70%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    color:#fff;
+    vertical-align:center;  
+    
+    }

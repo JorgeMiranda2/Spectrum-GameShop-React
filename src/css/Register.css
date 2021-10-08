@@ -1,0 +1,83 @@
+body, html, #root, .register, .container-re {
+    height: 600px;
+    justify-content: space-around;
+  }
+  
+.logo-re{
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+  
+.container-re {
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #211843;
+    float: left;
+    width: 100%;
+}
+  
+  .title-re{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9cm;
+    font-style: inherit;
+    padding-bottom: 30px;
+  
+  }
+  
+  .loginFormRegister {
+   box-sizing: border-box;
+   width: 100%;
+   max-width: 400px;
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+  
+  .inputField{
+   padding-top: 16px;
+  }
+  
+  .input-re{
+   box-sizing: border-box;
+   outline: none;
+   border: solid 2px #1189de;
+   border-radius: 10px;
+   color: #292929;
+   width: 100%;
+   padding: 12px;
+   margin-bottom: 20px;
+   font-size: 14px;
+   font-style: normal;
+   text-align: center;
+   background: rgb(255, 255, 255);
+  }
+
+  ::placeholder{
+    position: relative;
+    right: 120px;
+  }
+
+  .submitButtonRegister{
+  margin-top: 20px;
+   
+  }
+  
+  .btn-re {
+   width: 10px;
+   min-width: 280px;
+   margin-top: 20px;
+   color: #000000;
+   padding: 12px;
+   font-size: 14px;
+   font-weight: bold;
+   border: solid 2px #1189de;
+   border-radius: 2px;
+   background: #c6c6c6;
+   cursor: pointer;
+  }
